@@ -5,6 +5,19 @@ public abstract class Vehicle {
 	private double weight;
 	private Person owner;
 	
+	public Vehicle(){
+		
+	}
+	
+	public Vehicle(String name, String color, Double weight, Person owner){
+		this();
+		this.name = name;
+		this.color = color;
+		this.weight = weight;
+		this.owner = owner;
+		
+	}
+	
 	public String getName() {
 		return name;
 	}
